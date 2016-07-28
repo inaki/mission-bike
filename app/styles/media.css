@@ -1,0 +1,99 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 715px) {
+    #productModal .thumbnails {
+        display: none;
+    }
+    #productModal .modal-content {
+        width: 80%;
+        max-height: 150%;
+        display: block;
+        padding-bottom: 20px;
+    }
+    #productModal .sub-slider {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+    #productModal .sub-slider img {
+        width: 100%;
+    }
+    #productModal .info {
+        position: relative;
+        width: 100%;
+        margin: 0;
+    }
+    #productModal .info .title {
+        font-size: 2.5rem;
+        font-style: italic;
+    }
+    #productModal .info .desc {
+        line-height: 1.5rem;
+        font-size: 0.9rem;
+    }
+    #productModal table {
+        width: 100%;
+        margin: 0px;
+        line-height: 1rem;
+    }
+    #productModal .info .desc,
+    #productModal .info .title,
+    #productModal hr,
+    #productModal h3 {
+        margin: 20px 20px;
+    }
+    #productModal table td {
+        padding: 10px 20px;
+    }
+    #productModal button {
+        display: block;
+        width: 80%;
+        margin: 15px auto;
+    }
+}
+@media only screen and (min-device-width: 500px) and (max-device-width: 768px) {
+    #productModal .thumbnails {
+        display: none;
+    }
+    #productModal .modal-content {
+        width: 80%;
+        max-height: 150%;
+        display: block;
+        padding-bottom: 20px;
+    }
+    #productModal .sub-slider {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+    #productModal .info {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        margin: 0;
+    }
+    #productModal .info .title {
+        font-size: 2.5rem;
+    }
+    #productModal .info .desc {
+        line-height: 1.5rem;
+        font-size: 1rem;
+    }
+    #productModal .info .desc,
+    #productModal .info .title,
+    #productModal hr,
+    #productModal h3 {
+        margin: 20px 20px;
+    }
+    #productModal hr {
+        display: none;
+    }
+    #productModal table td {
+        padding: 10px 20px;
+    }
+    #productModal button {
+        display: block;
+        width: 90%;
+        margin: 10px auto;
+    }
+}

@@ -1,0 +1,76 @@
+.product-name {
+    position: relative;
+    top: 70px;
+}
+.product-name > .model-number,
+.product-name > .model-name {
+    display: block;
+    color: white;
+}
+.product-name > .model-number {
+    font-family: 'Montserrat', serif;
+    text-transform: uppercase;
+    margin-bottom: -6px;
+    letter-spacing: 0px;
+    letter-spacing: 0.02rem;
+    font-size: 12px;
+    font-size: .8rem;
+}
+.product-name > .model-name {
+    font-size: 48px;
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.sldr > ul.animate {
+    -webkit-transition: -webkit-transform 0.75s cubic-bezier(0.860, 0.000, 0.070, 1.000);
+    transition: transform 0.75s cubic-bezier(0.860, 0.000, 0.070, 1.000);
+    /* ease-in-out */
+}
+.stage {
+    width: 76%;
+    margin: 0 auto;
+    padding: 0 12%;
+    text-align: center;
+    overflow: hidden;
+}
+.sldr {
+    max-width: 825px;
+    margin: 0 auto;
+    overflow: visible;
+    position: relative;
+    clear: both;
+    display: block;
+}
+.sldr > ul > li {
+    float: left;
+    display: block;
+    width: 825px;
+}
+.sldr > ul > li > img {
+    max-width: 1000px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.selectors {
+    position: relative;
+    text-align: center;
+    top: -33px;
+}
+.selectors li {
+    font-size: 30px;
+    line-height: 32px;
+    display: inline;
+    padding: 0 2px;
+}
+.selectors li a {
+    text-decoration: none;
+    color: #ccc;
+}
+.selectors li.focalPoint a {
+    color: white;
+    cursor: default;
+}
